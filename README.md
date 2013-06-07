@@ -15,7 +15,8 @@ requeriments file, you can install them with [pip](https://pypi.python.org/pypi/
 
 
 Some previous knowledgement about how Firefox Marketplace works is strongly
-recommended. You can take a look at the official documentation first.
+recommended. You can take a look at the
+[official documentation](https://marketplace.firefox.com/developers/) first.
 
 Examples
 ---------
@@ -29,16 +30,16 @@ Validation
 There are two ways of validating an application, one per each application type:
 Packaged application validation and manifest validation.
 
-Packaged Application Validation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*Packaged Application Validation*
+
 Validator for packaged application. The full package is sent to the validator
 and the API returns a response. If everything is valid, the response provides
 an identificator needed in the submission process.
 
 These applications are hosted by the Marketplace.
 
-Manifest Validation
-^^^^^^^^^^^^^^^^^^^^^^
+*Manifest Validation*
+
 Users can deploy their application on their own servers, and send just the
 manifest's url itself to the Marketplace for the validation. The Marketplace
 validator will search for all the requeriments there.

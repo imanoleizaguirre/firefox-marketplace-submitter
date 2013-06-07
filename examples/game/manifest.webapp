@@ -1,0 +1,23 @@
+{
+    "fullscreen":"true",
+    "orientation":
+    [
+        "landscape",
+        "landscape-secondary"
+    ]
+    ,
+    "launch_path":"/index.html",
+    "description":"Dummie Manifest",
+    "developer":
+    {
+        "name":"Dev Name",
+        "url":"http://devurl.com"
+    },
+    "name":"Jumpy",
+    "default_locale":"en_US",
+    "icons":
+    {
+        "128":"/assets/icon.png"
+    },
+    "version":"0"
+}
